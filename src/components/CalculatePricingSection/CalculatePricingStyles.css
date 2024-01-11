@@ -1,0 +1,279 @@
+/* CalculatePricingStyles.css */
+
+/* Basic styling for the form container */
+.form-area {
+  display: flex;
+}
+
+.side-images {
+  display: block;
+}
+
+.trusted-store {
+  height: 100px;
+  width: 200px;
+  margin-top: 150px;
+  margin-left: 37px;
+}
+
+.form-human {
+  height: 70%;
+  margin-left: 200px;
+}
+
+.special-offer {
+  position: absolute;
+  top: 120px;
+  right: 504px;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.check-mark {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.form-heading {
+  display: flex;
+  color: #ffbf17;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+.form-heading h2 {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 33px;
+  font-style: normal;
+  line-height: 47.1429px;
+  font-weight: 400;
+  text-decoration: none;
+  transform: none;
+  letter-spacing: 0;
+}
+
+.form-top {
+  display: block;
+  margin-left: 60px;
+  align-items: flex-start;
+}
+
+.form-top p {
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  color: #ffff;
+  line-height: 21.4286px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin-top: 0;
+  margin-left: 40px;
+}
+
+.form-container {
+  max-width: 550px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  background-color: #484848;
+  margin-top: 170px;
+  margin-right: 60px;
+}
+
+/* Styling for the logo or icon */
+.form-container img.logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Styling for the image and heading section */
+.form-container .image-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-container img.sticker-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Styling for the heading */
+.form-container h2 {
+  margin: 0;
+}
+
+/* Styling for one - two line text */
+.form-container p {
+  margin-bottom: 20px;
+}
+
+/* Styling for the dropdowns and text inputs */
+.form-container select,
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for the deadline input with calendar icon */
+.form-container .deadline-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.form-container input[type="text"][placeholder="Select Deadline"] {
+  flex: 1;
+}
+
+/* Styling for the calendar icon */
+.form-container .calendar-icon {
+  color: #555;
+  cursor: pointer;
+}
+
+/* Styling for the button */
+.form-container button {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Georgia;
+  line-height: 20px;
+  background-color: #d69f0f;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  height: 60px;
+  width: 240px;
+  cursor: pointer;
+}
+
+/* Styling for the result text */
+.form-container p.result-text {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28.5714px;
+  font-family: Georgia;
+}
+
+.custom-datepicker {
+  width: 550px !important;
+}
+
+.form-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-bottom button {
+  margin-bottom: 10px;
+  background-color: #d69f0f;
+}
+
+.form-bottom p {
+  color: white;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 768px) {
+  .form-area {
+    display: block;
+  }
+
+  .special-offer {
+    position: absolute;
+    top: 220px;
+    right: 265px;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    margin-top: 20px;
+  }
+  .trusted-store {
+    height: 150px;
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 37px;
+  }
+  .form-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 5px;
+    justify-content: center;
+  }
+
+  .form-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .form-top p {
+    width: 300px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-right: 70px;
+  }
+
+  .form-heading {
+    display: flex;
+    white-space: nowrap;
+  }
+
+  .form-container img.sticker-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+  }
+
+  .form-container h2 {
+    font-size: 33px;
+  }
+
+  .form-container p {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .form-container select,
+  .form-container input[type="text"] {
+    font-size: 14px;
+  }
+
+  .form-container button {
+    font-size: 16px;
+  }
+
+  .form-container p.result-text {
+    margin-top: 8px;
+  }
+
+  .form-human {
+    display: none;
+  }
+
+  .custom-datepicker {
+    width: 300px !important;
+  }
+}

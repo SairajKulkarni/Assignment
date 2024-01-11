@@ -1,0 +1,178 @@
+/* Navbar.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Default styles for laptops */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #0a2d50;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 1.5rem;
+  font-family: Georgia;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: normal;
+}
+
+.additional-info {
+  padding-left: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.info-text {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.year {
+  font-size: 18px;
+  color: #eeb018;
+}
+
+.phone-icon {
+  padding-right: 7px;
+  align-items: center;
+}
+
+.call-button {
+  background-color: #1a68b5;
+  color: white;
+  height: 33px;
+  width: 174px;
+  margin-left: 23px;
+}
+
+.call-button a {
+  color: #fff;
+  text-decoration-line: none;
+}
+
+.call-button a:hover {
+  text-decoration: underline;
+}
+
+.options-container {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  background-color: #d69f0f;
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+}
+
+.option {
+  font-weight: 400;
+  font-size: 15px;
+  color: #10151c;
+  padding: 10px;
+  line-height: 20px;
+  font-family: Georgia;
+  margin: 0;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.drawer-icon {
+  display: none;
+}
+
+.drawer {
+  display: none;
+}
+
+.drawer ul {
+  list-style: none;
+}
+
+.drawer li {
+  display: none;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: flex-start;
+    padding-left: 20px;
+    height: 80px;
+  }
+
+  .brand-name {
+    font-size: 1.3rem;
+  }
+
+  .drawer-icon {
+    display: block;
+    padding-left: 180px;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .drawer {
+    display: block;
+    height: 300px;
+    flex-direction: column;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: #d69f0f;
+    overflow-y: auto;
+  }
+
+  .drawer ul {
+    list-style: none;
+    padding-left: 20px;
+    margin: 0;
+    max-height: calc(100vh - 400px);
+    overflow-y: auto;
+  }
+
+  .drawer li {
+    display: block;
+    font-size: 1rem;
+    color: black;
+    font-size: 0.9rem;
+    padding: 10px;
+    margin-right: 0;
+  }
+
+  .options-container {
+    display: none;
+  }
+
+  .additional-info {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+/* SelectInput.css */
+
+.select-container {
+  position: relative;
+  display: flex; /* Use flex display for horizontal alignment */
+}
+
+/* Style the select input */
+.select-container select {
+  flex: 1; /* Allow the select input to grow and take available space */
+}
+
+/* Style the default option with a faint color */
+.default-option {
+  color: #776256;
+}
+
+/* Style the check icon on the right side of the select */
+.check-icon {
+  margin-top: 5px;
+  margin-left: 10px; /* Add left margin for spacing */
+  color: rgb(255, 255, 255); /* Adjust the color as needed */
+  border-radius: 50%; /* Make the icon circular */
+  padding: 3px;
+  border: 2px solid white;
+  font-weight: bolder;
+}
