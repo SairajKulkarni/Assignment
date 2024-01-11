@@ -1,0 +1,56 @@
+.button-div h2 {
+  font-weight: 400;
+  font-size: 37px;
+  font-style: normal;
+  color: #333333;
+  line-height: 52.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 10px 80px;
+}
+
+.dissertation-button {
+  height: 75px;
+  width: 150px;
+  display: block;
+  margin: 20px auto; /* Center the button horizontally */
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 37px;
+  font-style: normal;
+  color: #000000;
+  line-height: 52.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  text-align: center;
+  border: 0.6px solid black;
+}
+
+.click-here {
+  font-weight: 400;
+  font-size: 37px;
+  font-style: normal;
+  color: #337ab7;
+  line-height: 52.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  text-align: center;
+  border: 0.6px solid black;
+}
+
+@media (max-width: 768px) {
+  .button-div h2 {
+    margin: auto 20px;
+  }
+  .button-div p {
+    margin-top: 100px;
+  }
+}

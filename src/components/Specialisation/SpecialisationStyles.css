@@ -1,0 +1,148 @@
+.projectsdeal-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  margin-top: 0;
+}
+
+.highlightText {
+  font-weight: 700;
+  border: 0.6px solid black;
+}
+
+.projectsdeal-info-text p {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: #333333;
+  line-height: 28.5714px;
+  text-decoration: none;
+  font-family: baskerville;
+  text-align: justify;
+  letter-spacing: 0;
+}
+
+.projectsdeal-info-wrapper {
+  display: flex;
+  flex-direction: row; /* Arrange the video and list side by side */
+}
+
+.projectsdeal-info-video {
+  flex: 1; /* Take up the entire space on the left */
+  margin-right: 20px;
+  height: 300px;
+}
+
+.projectsdeal-info-video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.projectsdeal-info-list {
+  flex: 1; /* Take up the entire space on the right */
+}
+
+.projectsdeal-info-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projectsdeal-info-list li {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: #333333;
+  line-height: 28.5714px;
+  text-decoration: none;
+  font-family: baskerville;
+  letter-spacing: 0;
+}
+
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h2 {
+  font-weight: 400;
+  font-size: 35px;
+  font-style: normal;
+  color: #0b56a8;
+  line-height: 50px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin-bottom: 0; /* Remove margin at the bottom of h2 */
+}
+
+.contact button {
+  background-color: #59ce72;
+  color: white;
+  border: none;
+  padding: 16px 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-top: 5px; /* Add a small margin between h2 and button if needed */
+}
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Add margin for spacing */
+}
+
+.whatsapp-icon {
+  margin-right: 5px; /* Add margin to the right of the icon */
+}
+
+.whatsapp-button:hover {
+  color: #0b56a8; /* Change the color to blue on hover */
+}
+
+.bottom-description {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: #333333;
+  line-height: 28.5714px;
+  text-decoration: none;
+  font-family: baskerville;
+  letter-spacing: 0;
+  text-align: justify;
+}
+
+/* Media query for 768px and below */
+@media (max-width: 768px) {
+  .projectsdeal-info-container {
+    padding: 15px;
+  }
+
+  .projectsdeal-info-text,
+  .projectsdeal-info-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .projectsdeal-info-wrapper {
+    display: block;
+  }
+
+  .projectsdeal-info-video {
+    flex: 1; /* Take up the entire space on the left */
+    margin-right: 10px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact {
+    margin-bottom: 20px;
+  }
+  .contact h2 {
+    text-align: center;
+  }
+}

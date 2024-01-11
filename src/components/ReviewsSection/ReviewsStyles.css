@@ -1,0 +1,106 @@
+/* ReviewsSectionStyles.css */
+
+.reviews-section {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 20px;
+}
+
+.reviews-section h2 {
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
+  color: #0b56a8;
+  line-height: 33px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin: 0;
+}
+.review-box {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.review-box p {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: #333333;
+  line-height: 22.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.rating {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #ffd700; /* Set the color for the stars */
+}
+
+.reviewer {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: italic;
+  color: #333333;
+  line-height: 22.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin-top: 10px;
+}
+
+.navigation-buttons {
+  margin: 10px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Media query for 768px and below */
+@media (max-width: 768px) {
+  .review-box {
+    padding: 15px;
+    height: 300px;
+  }
+
+  .rating {
+    font-size: 20px;
+  }
+
+  .reviewer {
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+
+  .navigation-buttons {
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: #333333;
+    line-height: 22.8571px;
+    text-decoration: none;
+    font-family: Georgia;
+    letter-spacing: 0;
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 0;
+    margin: 10px 10px;
+  }
+}

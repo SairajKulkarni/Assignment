@@ -18,13 +18,13 @@
 
 .form-human {
   height: 70%;
-  margin-left: 200px;
+  margin-left: 180px;
 }
 
 .special-offer {
   position: absolute;
   top: 120px;
-  right: 504px;
+  right: 480px;
   width: 200px;
   height: 200px;
   z-index: 2;
@@ -80,13 +80,12 @@
 
 .form-container {
   max-width: 550px;
-  height: 100%;
   margin: 0 auto;
   padding: 40px;
   border: 1px solid #ccc;
   background-color: #484848;
   margin-top: 170px;
-  margin-right: 60px;
+  margin-right: 37px;
 }
 
 /* Styling for the logo or icon */

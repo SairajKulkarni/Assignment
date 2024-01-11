@@ -42,7 +42,7 @@ body {
 }
 
 .additional-info {
-  padding-left: 400px;
+  padding-left: 370px;
   display: flex;
   align-items: center;
 }
@@ -67,13 +67,14 @@ body {
   background-color: #1a68b5;
   color: white;
   height: 33px;
-  width: 174px;
+  width: 194px;
   margin-left: 23px;
 }
 
 .call-button a {
   color: #fff;
   text-decoration-line: none;
+  white-space: nowrap;
 }
 
 .call-button a:hover {

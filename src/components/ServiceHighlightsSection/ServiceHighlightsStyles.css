@@ -1,0 +1,97 @@
+/* ServiceHighlights.css */
+
+.service-highlights {
+  margin-top: 2px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.service-highlights h1 {
+  font-weight: 400;
+  font-size: 42px;
+  font-style: normal;
+  color: #0b56a8;
+  line-height: 60px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-feature {
+  text-align: center;
+  width: 22.5%;
+  margin-right: 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.service-feature .icon {
+  font-weight: bolder;
+  font-size: 44px;
+  color: white;
+  background-color: #454545;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-feature h2 {
+  font-weight: 700;
+  font-size: 24px;
+  font-style: normal;
+  color: #333333;
+  line-height: 34.2857px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 2px; /* Adjust the margin between title and description */
+}
+
+.service-feature p {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: #333333;
+  line-height: 22.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin-top: 3px; /* Adjust the margin between title and description */
+}
+
+.service-feature:nth-child(4n + 1),
+.service-feature:nth-child(4n + 2),
+.service-feature:nth-child(4n + 3),
+.service-feature:nth-child(4n + 4) {
+  margin-bottom: 20px; /* Add margin between the first row and the second row */
+}
+
+/* Media query for 768px and below */
+@media (max-width: 768px) {
+  .features-container {
+    flex-direction: column;
+  }
+
+  .service-feature {
+    width: 100%; /* Full width for mobile */
+    margin-right: 0; /* No margin for mobile */
+  }
+}
+
+.service-feature p {
+  width: 65%;
+}

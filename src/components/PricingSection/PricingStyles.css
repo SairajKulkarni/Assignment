@@ -1,0 +1,87 @@
+/* PricingSectionStyles.css */
+
+.pricing-section {
+  margin: auto; /* Center the container horizontally */
+  border-radius: 10px;
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+.pricing-section h2 {
+  font-weight: 700;
+  font-size: 40px;
+  font-style: normal;
+  color: #ff0000;
+  line-height: 57.1429px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.pricing-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.pricing-section li {
+  font-weight: 400;
+  font-size: 30px;
+  font-style: normal;
+  color: #000000;
+  line-height: 42.8571px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.see-pricing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.see-pricing img {
+  width: 400px; /* Adjust the image size as needed */
+  margin-right: 10px;
+}
+
+/* Styling for the pricing details */
+.pricing-details {
+  margin-top: 20px;
+}
+
+.pricing-details p {
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .pricing-section h2 {
+    text-align: center;
+    white-space: wrap;
+  }
+
+  .pricing-section li {
+    margin-left: 40px;
+    width: 80%;
+    text-align: center;
+    white-space: wrap;
+  }
+
+  .see-pricing img {
+    width: 320px; /* Adjust the image size as needed */
+    margin-right: 10px;
+  }
+}

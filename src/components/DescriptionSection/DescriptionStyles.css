@@ -1,0 +1,65 @@
+/* OrderComponent.css */
+
+.order-container {
+  text-align: center;
+  padding: 0px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.order-text {
+  font-weight: 400;
+  font-size: 46px;
+  font-style: normal;
+  color: #a98511;
+  line-height: 65.7143px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+
+.order-description {
+  margin-left: 10px;
+  width: 97%;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: #333333;
+  line-height: 28.5714px;
+  text-decoration: none;
+  transform: none;
+  font-family: baskerville;
+  letter-spacing: 0;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.order-button-heading {
+  font-weight: 400;
+  font-size: 37px;
+  font-style: normal;
+  color: #000000;
+  line-height: 52.8571px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+}
+
+.order-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.order-image {
+  width: 250px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.order-button:hover .order-image {
+  transform: scale(1.1);
+}

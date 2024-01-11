@@ -1,0 +1,109 @@
+/* DissertationWritingStyles.css */
+
+.dissertation-writing-section {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.dissertation-writing-section h2 {
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  color: #0b56a8;
+  line-height: 35.7143px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.dissertation-body {
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.dissertation-writing-section p,
+.dissertation-writing-section ul,
+.dissertation-writing-section h3 {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: #333333;
+  line-height: 28.5714px;
+  text-decoration: none;
+  font-family: baskerville;
+  letter-spacing: 0;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.dissertation-writing-section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.dissertation-writing-section ul li {
+  padding-left: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.dissertation-writing-section ul li:before {
+  content: "\2022";
+  position: absolute;
+  left: 0;
+}
+
+.dissertation-writing-section h3 {
+  font-weight: 700;
+  font-size: 20px;
+  font-style: normal;
+  color: #333333;
+  line-height: 28.5714px;
+  text-decoration: none;
+  font-family: baskerville;
+  letter-spacing: 0;
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.button-div h2 {
+  font-weight: 400;
+  font-size: 37px;
+  font-style: normal;
+  color: #333333;
+  line-height: 52.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+}
+
+.dissertation-button {
+  height: 75px;
+  width: 150px;
+  display: block;
+  margin: 20px auto; /* Center the button horizontally */
+  margin-top: 0;
+  cursor: pointer;
+}
+
+/* Media query for 768px and below */
+@media (max-width: 768px) {
+  .dissertation-writing-section h2 {
+    font-size: 28px;
+  }
+
+  .dissertation-writing-section p,
+  .dissertation-writing-section ul,
+  .dissertation-writing-section h3 {
+    font-size: 16px;
+  }
+
+  .dissertation-button {
+    max-width: 100%; /* Allow the image to take full width on smaller screens */
+  }
+}
