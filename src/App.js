@@ -1,22 +1,27 @@
-import Advice from "./components/AdviceSection/Advice";
-import CalculatePricing from "./components/CalculatePricingSection/CalculatePricing";
-import Description from "./components/DescriptionSection/Description";
-import FAQ from "./components/FAQSection/FAQ";
-import Introduction from "./components/IntroductionSection/Introduction";
+// App.js
+import React from "react";
 import Navbar from "./components/NavbarSection/Navbar";
+import CalculatePricing from "./components/CalculatePricingSection/CalculatePricing";
+import Introduction from "./components/IntroductionSection/Introduction";
+import Description from "./components/DescriptionSection/Description";
+import Specialisation from "./components/Specialisation/Specialisation";
+import ServiceHighlights from "./components/ServiceHighlightsSection/ServiceHighlights";
 import PricingSection from "./components/PricingSection/Pricing";
 import ReviewsSection from "./components/ReviewsSection/Reviews";
-import ServiceHighlights from "./components/ServiceHighlightsSection/ServiceHighlights";
-import Specialisation from "./components/Specialisation/Specialisation";
-import Working from "./components/WorkingSection/Working";
 import WritingSolutions from "./components/WritingSolutionsSection/WritingSolutions";
+import Working from "./components/WorkingSection/Working";
+import FAQ from "./components/FAQSection/FAQ";
+import Advice from "./components/AdviceSection/Advice";
+import Footer from "./components/FooterSection/Footer";
+import FooterBottom from "./components/FooterBottomSection/FooterBottom";
+import ScrollToTopButton from "./components/ScrollToTopButton/ScrollTopButton";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
-      <CalculatePricing />
       <div>
+        <CalculatePricing />
         <Introduction />
         <Description />
         <Specialisation />
@@ -27,6 +32,9 @@ function App() {
         <Working />
         <FAQ />
         <Advice />
+        <Footer />
+        <FooterBottom />
+        <ScrollToTopButton />
       </div>
     </div>
   );

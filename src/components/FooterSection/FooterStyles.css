@@ -1,0 +1,246 @@
+/* FooterStyles.css */
+.footer {
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.column {
+  max-width: 300px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 2px;
+}
+
+.home-icon {
+  padding-right: 10px;
+  color: #1a68b5;
+}
+
+.column-1 h3 {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  color: #d4a115;
+  line-height: 25.7143px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+}
+
+.column-1 p {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: #aaaaab;
+  line-height: 22.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+}
+
+.boldthis {
+  font-weight: 700;
+}
+
+.link1 {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: #337ab7;
+  line-height: 22.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+}
+
+.link1:hover {
+  color: #074a85;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.computer {
+  height: 18px;
+  width: 18px;
+  padding-right: 10px;
+  color: #1a68b5;
+}
+
+.column-2 {
+  margin-left: 20px;
+}
+.column-2 h3 {
+  width: 90%;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: #d4a115;
+  line-height: 20px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin-bottom: 5px;
+}
+.column-2 img {
+  max-width: 75%;
+  height: auto;
+  margin: 0;
+}
+
+.phone-icon {
+  padding-right: 10px;
+  color: #2a333f;
+}
+
+.column-2 P {
+  font-weight: 400;
+  font-size: 13px;
+  font-style: normal;
+  color: #aaaaab;
+  line-height: 27px;
+  text-decoration: none;
+  transform: uppercase;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.column-3 {
+  margin-left: 10px;
+}
+
+.comments {
+  padding-right: 3px;
+  color: #1a68b5;
+}
+
+.column-3 h3 {
+  width: 90%;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  color: #d4a115;
+  line-height: 28.5714px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.column-3 ul {
+  list-style-type: none;
+  text-indent: 0;
+  margin-top: 0;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.column-3 ul li {
+  width: 80%;
+  font-weight: 400;
+  font-size: 13px;
+  font-style: normal;
+  color: #aaaaab;
+  line-height: 36px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  border-bottom: 0.1px solid rgb(155, 113, 113);
+  padding-left: 0;
+}
+
+.column-3 ul li:hover {
+  color: #218cf7;
+}
+
+.column-3 button {
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 20px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+  background-color: #337ab7;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-4 {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.list {
+  padding-right: 10px;
+  color: #1a68b5;
+}
+
+.column-4 h3 {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  color: #d4a115;
+  line-height: 25.7143px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+}
+
+.column-4 p {
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 21.4286px;
+  text-decoration: none;
+  transform: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+}
+
+.column-4 p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Additional Mobile Styles */
+/* Additional Mobile Styles */
+@media (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+  }
+
+  .column {
+    width: calc(100% - 20px); /* Adjust as needed for padding */
+    margin: 0 auto;
+    padding: 0 10px; /* Adjust as needed for padding */
+  }
+
+  .column {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  .column h3,
+  p {
+    width: 100%;
+  }
+}

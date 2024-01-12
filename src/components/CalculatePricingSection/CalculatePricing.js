@@ -1,7 +1,6 @@
 // CalculatePricing.js
 
 import React from "react";
-import { FaCalendar } from "react-icons/fa";
 import "./CalculatePricingStyles.css";
 import ReactDatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -18,6 +17,7 @@ import {
   toolOptions,
 } from "./optionsData";
 import SelectInput from "./SelectInput";
+import { FaCalculator } from "react-icons/fa";
 
 const CalculatePricing = () => {
   const handleSubmit = (e) => {
@@ -95,7 +95,9 @@ const CalculatePricing = () => {
           </div>
 
           <div className="form-bottom">
-            <button type="submit">Click To Calculate</button>
+            <button type="submit">
+              Click To Calculate <FaCalculator style={{ paddingLeft: "5px" }} />
+            </button>
             <p className="result-text">Result is all that Matters!</p>
           </div>
         </form>

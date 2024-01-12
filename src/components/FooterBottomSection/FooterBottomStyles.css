@@ -1,0 +1,65 @@
+/* FooterBottom.module.css */
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a202a; /* Set your desired background color */
+  color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+
+.icons svg {
+  width: 18px; /* Set your desired icon size */
+  height: 18px; /* Set your desired icon size */
+  border: 2px solid white; /* Add a white border */
+  border-radius: 50%; /* Make it circular */
+  padding: 10px; /* Adjust as needed for spacing */
+}
+
+.icons img {
+  width: 30px; /* Set your desired icon size */
+  height: 30px; /* Set your desired icon size */
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 16px;
+  font-style: normal;
+  color: #337ab7;
+  line-height: 22.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+}
+
+.heading:hover {
+  text-decoration: underline;
+}
+
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  color: #aaaaab;
+  line-height: 22.8571px;
+  text-decoration: none;
+  font-family: Georgia;
+  letter-spacing: 0;
+}
+
+/* Additional Mobile Styles */
+@media (max-width: 768px) {
+  .icons {
+    flex-wrap: wrap;
+  }
+
+  .icons img {
+    margin-bottom: 10px;
+  }
+}

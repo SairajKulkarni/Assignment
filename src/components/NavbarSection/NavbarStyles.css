@@ -59,6 +59,7 @@ body {
 }
 
 .phone-icon {
+  color: #ffffff !important;
   padding-right: 7px;
   align-items: center;
 }
@@ -67,7 +68,7 @@ body {
   background-color: #1a68b5;
   color: white;
   height: 33px;
-  width: 194px;
+  width: 199px;
   margin-left: 23px;
 }
 
